@@ -1,4 +1,5 @@
 .headerWrap{
+  position: relative;
   background-image: 
   linear-gradient(360deg, rgba(180, 30, 30, 0.95) 0%, rgba(133, 22, 22, 0.973064) 65%, rgba(118, 20, 20, 0.98025) 76%, rgba(99, 17, 17, 0.989288) 90%, #4E0D0D 100%),
   linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04));
@@ -16,12 +17,16 @@
   flex-direction: row;
   column-gap: 28px;
 }
+.listItem{
+  padding: 75px 0;
+}
 .listItemLink{
   color: $color-text-second;
   font-size: 20px;
   font-family: "Inria Sans", sans-serif;
   font-weight: 400;
   text-decoration: none;
+  
 }
 .contactBtn{
   background-color:#FDFDFD;
@@ -34,4 +39,53 @@
   border-radius: 22px;
   border: none;
   color: black;
+}
+
+.headerHoverBox{
+  position: absolute;
+  left: 50%;
+  top: 155px;
+  transform: translate(-50%,0);
+  width: 1310px;
+  background-image: linear-gradient(360deg, #FFFFFF 0%, #DDD8D0 78%, #CDC6BA 94.5%, #B9B4A8 100%);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+  padding: 41px 190px;
+
+  div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+    justify-content: space-between;
+  }
+}
+.demosBox{
+  column-gap: 50px;
+}
+.whoweareLink:hover .whoweareBox{
+    display: flex;
+}
+.demosLink:hover .demosBox{
+  display: flex;
+}
+.hoverLinks{
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+  align-items: center;
+  text-decoration: none;
+
+  p{
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  }
 }
