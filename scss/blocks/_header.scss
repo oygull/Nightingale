@@ -14,7 +14,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  column-gap: 16px;
+  column-gap: 28px;
 }
 .listItemLink{
   color: $color-text-second;
@@ -26,9 +26,12 @@
 .contactBtn{
   background-color:#FDFDFD;
   font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
   font-family: "Inria Sans", sans-serif;
   font-weight: 400;
-  padding: 10px 30px;
+  padding: 12px 36px;
   border-radius: 22px;
   border: none;
+  color: black;
 }
