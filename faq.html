@@ -12,21 +12,74 @@
     <header class="headerWrap">
       <div class="container">
         <div class="headerWrapInner">
-              <a to="#">
+              <a href="index.html">
               <img alt="logo" src="./images/Logo.svg"/>
           </a>
           <ul class="navList">
             <li class="listItem"> <a class="listItemLink" href="index.html"> Home </a> </li>
-            <li class="listItem"> <a class="listItemLink" href="whoWeAre.html"> Who We Are </a> </li>
-            <li class="listItem"> <a class="listItemLink" to=""> Demos </a> </li>
-            <li class="listItem"> <a class="listItemLink" to="/"> Challenge of the week </a> </li>
-            <li class="listItem"> <a class="listItemLink" to="/"> News </a> </li>
+            <li class="listItem whoweareLink"> <a class="listItemLink" href="whoWeAre.html"> Who We Are <img src="./images/arrow.png"/> </a> 
+              <div class="headerHoverBox whoweareBox">
+                <a class="hoverLinks" href="about.html">
+                  <img src="./images/icon.png"/>
+                  <p>About Us</p>
+                </a>
+                <a class="hoverLinks" href="portfolio.html">
+                  <img src="./images/icon.png"/>
+                  <p>Portfolio & Case Studies</p>
+                </a>
+                <a class="hoverLinks" href="partners.html">
+                  <img src="./images/icon.png"/>
+                  <p>Partners</p>
+                </a>
+            </div>
+            </li>
+            <li class="listItem demosLink"> <a class="listItemLink" href="demo.html"> Demos <img src="./images/arrow.png"/>  </a> 
+              <div class="headerHoverBox demosBox">
+                <div>
+                  <a class="hoverLinks" href="">
+                    <img src="./images/icon.png"/>
+                    <p>AI WhatIf</p>
+                  </a>
+                  <a class="hoverLinks" href="">
+                    <img src="./images/icon.png"/>
+                    <p>Echo Explore</p>
+                  </a>
+                 
+                </div>
+                <div>
+                  <a class="hoverLinks" href="">
+                    <img src="./images/icon.png"/>
+                    <p>Bogalusa</p>
+                  </a>
+                  <a class="hoverLinks" href="">
+                    <img src="./images/icon.png"/>
+                    <p>Cardiomegaly CNN</p>
+                  </a>
+                </div>
+                <div>
+                 
+                  <a class="hoverLinks" href="">
+                    <img src="./images/icon.png"/>
+                    <p>Heart Cluster</p>
+                  </a>
+                  <a class="hoverLinks">
+                    <img src="./images/icon.png"/>
+                    <p>Lifesaver</p>
+                  </a>
+                </div>
+        
+            </div>
+            </li>
+            <li class="listItem"> <a class="listItemLink" href="cotw.html"> Challenge of the week </a> </li>
+            <li class="listItem"> <a class="listItemLink" href="news.html"> News </a> </li>
             <li class="listItem"> <a class="listItemLink" href="faq.html"> FAQ </a> </li>
             <li class="listItem"> <a class="listItemLink" href="support.html"> Support Us </a> </li>
           </ul>
 
           <a href="contactUs.html" class="contactBtn"> Contact Us </a>
         </div>
+     
+        
       </div>
     </header>
  
@@ -43,56 +96,56 @@
     </div>
  </section>
 
-    <footer class="footerWrap">
-        <div class="formWrap">
-          <div class="container">
-              <form class="formWrapInner">
-                  <p class="formText">Subscribe <br> <span>to our newsletter</span></p>
-                  <input placeholder="Enter your email" class="formInput" type="email">
-                  <button class="formBtn">Sign me up</button>
-              </form>
-          </div>
+ <footer class="footerWrap">
+  <div class="formWrap">
+    <div class="container">
+        <form class="formWrapInner">
+            <p class="formText">Subscribe <br> <span>to our newsletter</span></p>
+            <input placeholder="Enter your email" class="formInput" type="email">
+            <button class="formBtn">Sign me up</button>
+        </form>
+    </div>
+  </div>
+  <div class="footerInner">
+    <div class="container footerLinks">
+      <div class="listLinks">
+          <a class="mainLink" href="whoWeAre.html">Who We Are </a>
+          <a class="subLink" href="about.html">About Us </a>
+          <a class="subLink" href="portfolio.html">Portfolio & Case Studies </a>
+          <a class="subLink" href="partners.html">Partners</a>
+      </div>
+      <div class="listLinks">
+        <a class="mainLink" href="demo.html">Demos </a>
+        <div> 
+          <a class="subLink" href="#">Echo Explore</a> 
+          <a class="subLink" href="#">Heart Clusters</a>
         </div>
-        <div class="footerInner">
-          <div class="container footerLinks">
-            <div class="listLinks">
-                <a class="mainLink" href="#">Who We Are </a>
-                <a class="subLink" href="#">About Us </a>
-                <a class="subLink" href="#">Portfolio & Case Studies </a>
-                <a class="subLink" href="#">Partners</a>
-            </div>
-            <div class="listLinks">
-              <a class="mainLink" href="#">Demos </a>
-              <div> 
-                <a class="subLink" href="#">Echo Explore</a> 
-                <a class="subLink" href="#">Heart Clusters</a>
-              </div>
-              <div> 
-                <a class="subLink" href="#">Cardiomegaly CNN</a> 
-                <a class="subLink" href="#">Bogalusa</a>
-              </div>
-              <div> 
-                <a class="subLink" href="#">ECG Predection AI</a> 
-                <a class="subLink" href="#">Lifesaver</a>
-              </div>
-              <a class="subLink" href="#">AI WhatIf</a>
-            </div>
-            <div class="listLinks">
-              <a class="mainLink" href="#">Challenge of the Week </a>
-              <a class="mainLink" href="#">Support Us </a>
-              <a class="mainLink" href="#">Contact Us </a>
-            </div>
-            <div class="listLinks">
-              <a class="mainLink" href="#"> News</a>
-              <a class="mainLink" href="#">FAQ </a>
-              <a class="mainLink" href="#">Terms of service </a>
-            </div>
-          </div>
-          <a href="#" class="backTotop">
-            <p>Back to Top</p>
-          </a>
-          </div>
+        <div> 
+          <a class="subLink" href="#">Cardiomegaly CNN</a> 
+          <a class="subLink" href="#">Bogalusa</a>
         </div>
-    </footer>
+        <div> 
+          <a class="subLink" href="#">ECG Predection AI</a> 
+          <a class="subLink" href="#">Lifesaver</a>
+        </div>
+        <a class="subLink" href="#">AI WhatIf</a>
+      </div>
+      <div class="listLinks">
+        <a class="mainLink" href="cotw.html">Challenge of the Week </a>
+        <a class="mainLink" href="support.html">Support Us </a>
+        <a class="mainLink" href="contactUs.html">Contact Us </a>
+      </div>
+      <div class="listLinks">
+        <a class="mainLink" href="news.html"> News</a>
+        <a class="mainLink" href="faq.html">FAQ </a>
+        <a class="mainLink" href="legal.html">Terms of service </a>
+      </div>
+    </div>
+    <a href="#" class="backTotop">
+      <p>Back to Top</p>
+    </a>
+    </div>
+  </div>
+</footer>
   </body>
 </html>
