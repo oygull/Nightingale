@@ -1,0 +1,102 @@
+.heroWrap {
+  background: linear-gradient(rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)), 
+              url(../../images/pannel.png);
+  background-blend-mode: normal;
+  background-size: cover;
+  background-position: center;
+  background-color: #484273;
+}
+.heroWrapInner{
+  padding: 90px 0;
+}
+.heroTitle{
+  font-size: 51px;
+  font-family: "Inria Serif", serif;
+  color: $color-text-second;
+  line-height: 61px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.herosubTitle{
+  font-size: 40px;
+  line-height: 47px;
+  font-family: "Inria Serif", serif;
+  color: $color-text-second;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.heroText{
+  font-size: 28px;
+  line-height: 33px;
+  color: $color-text-second;
+  font-weight: 400;
+  font-family: "Inria Serif", serif;
+}
+
+.homeWrap{
+  padding: 40px 0;
+}
+.homeWrapInner{
+  background-color: #F4F4F4;
+  border-radius: 31px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  row-gap: 64px;
+  box-shadow: 2px 2px 1px 0px #8c8c8c;
+}
+.imgBox{
+  background-color: #D9D9D9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstImgBox{
+  width: 45% ;
+  height: 368px;
+}
+.secondImgBox{
+  width: 396px;
+  height: 431px;
+}
+.thirdImgBox{
+  width: 620px;
+  height: 391px;
+}
+.textBox{
+  width: 50%;
+}
+.textBoxPar{
+  font-weight: 400;
+  font-family: "Inria Serif", serif;
+  color: $color-text-first;
+  line-height: 44px;
+  font-size: 32px ;
+}
+.imgText{
+  font-size: 40px;
+  color: $color-text-first;
+  font-family: "Inria Serif", serif;
+}
+.innerItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 60px;
+}
+.addInfo{
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 78px;
+  padding: 45px 22px 10px 22px;
+  background-color:  #F4F4F4;
+  border-radius: 31px;
+  box-shadow: 2px 2px 1px 0px #8c8c8c;
+}
+.addInfoText{
+  font-size: 32px ;
+  line-height: 38px;
+}
+
